@@ -25,7 +25,7 @@ Parsely helps you tokenize and parse simple space-delimited files. For example, 
 Here's the minimal amount of code you need to start using Parsely:
 
 ```c++
-#import "parsely.cpp"
+#import "parsely.hpp"
 
 parsely::FileParser parser(filename);
 while (parser.advance_line()) {
